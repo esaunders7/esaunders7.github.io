@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Index</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="content">
+		<header>
+			<h1>Emma Saunders</h1>
+		</header>
+	<nav class="main-nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="quiz.html">Quiz</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	<main>
+	<main class="quizonly">
+	<section class="questions">
+		<h3>Quiz</h3>
+		<p>
+			<label for="txt-questionone">What does parseInt do?</label>
+			<select id="txt-questionone">
+				<option>makes everything lowercase</option>
+				<option>bolds the id</option>
+				<option>removes a hidden class</option>
+				<option>extracts a number from a string</option>
+			</select>
+		</p>
+		<p>
+			<label for="txt-questiontwo">Why do you need to put <= or >= for loops?</label>
+			<select id="txt-questiontwo">
+				<option value="right">so it does not loop forever which would happen with just "="</option>
+				<option>so it goes to the bottom of the page</option>
+				<option>so it can be used again later in the page</option>
+				<option>so that an image is inserted</option>
+			</select>
+		</p>
+		<p>
+			<label for="txt-questionthree">When do you need .value for accessing elements by id?</label>
+			<select id="txt-questionthree">
+				<option>when you just need the element</option>
+				<option>when you are getting the text from in the text box</option>
+				<option>you do not ever need it</option>
+				<option>when you are making the element lowercase</option>
+			</select>
+		</p>
+		<p>
+			<label for="txt-questionfour">What does the strong attribute do in HTML?</label>
+			<select id="txt-questionfour">
+				<option>it puts the text in all-caps</option>
+				<option>it bolds the text</option>
+				<option>it puts the text in italics</option>
+				<option>it puts a "!" at the end</option>
+			</select>
+		</p>
+		<button onclick="showResults()">Submit</button>
+		</section>
+		<section id="result" class="hidden">
+			<h3>Quiz Results</h3>
+			<p id="line1"></p>
+			<p id="line2"></p>
+			<p id="line3"></p>
+			<p id="line4"></p>
+			<p id="score"></p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy;Emma</p>
+	</footer>
+	</div>
+</body>
+</html> 
